@@ -6,8 +6,9 @@ import 'materialize-css';
 import './App.css';
 import NavBar from './components/layout/NavBar'
 import SiteHeader from './components/layout/SiteHeader'
-import SiteContent from './components/layout/SiteFooter'
-import SiteFooter from './components/layout/SiteContent'
+import SiteContent from './components/layout/SiteContent'
+import SiteFooter from './components/layout/SiteFooter'
+
 
 
 
@@ -16,8 +17,7 @@ function App() {
     <div className="App">
       <SiteHeader></SiteHeader>
       <NavBar></NavBar>
-      
-      
+      <SiteContent></SiteContent>
     </div>
   );
 }

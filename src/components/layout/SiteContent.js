@@ -1,13 +1,13 @@
 import React from 'react'
 
 
-const SiteFooter = () => {
+const SiteContent = () => {
     return (
-        <section>
-            <p>I am bosy content</p>
+        <section className="container">
+            <p>I am body content</p>
         </section>
     )
 }
 
- export default SiteFooter
+ export default SiteContent
 

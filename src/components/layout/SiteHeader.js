@@ -6,7 +6,7 @@ const SiteHeader = () => {
     return (
         <header className='header-wrapper'>
             <Row>
-                <Col className="container" s={12}> 
+                <Col s={12}> 
                     <Row className="">
                         <Col className="site-logo" s={12} m={6} >
                             <img src={logo } alt={"logo" } className="section"/>
