@@ -1,5 +1,10 @@
+html {
+  min-height: 100%;
+}
+
 body {
   margin: 0;
+  min-height: 100%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -12,6 +17,9 @@ code {
     monospace;
 }
 
+h5 {
+  font-size: 1.5rem;
+}
 nav ul {
   padding-left: 10% !important;
 }
@@ -24,8 +32,8 @@ nav ul {
   font-size: 25px;
 }
 
-.site-logo {
-  
+.site-footer {
+  /* background-color: #FEE2B7; */
 }
 
 .navbar {
@@ -34,7 +42,8 @@ nav ul {
 }
 
 
-.header-wrapper {
+.header-wrapper, 
+.site-footer {
   background-color: #E20000;
 }
 
