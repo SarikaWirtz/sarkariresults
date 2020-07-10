@@ -5,10 +5,10 @@ import logo from '../../assets/img/logo.png'
 const SiteHeader = () => {
     return (
         <header className='header-wrapper'>
-            <Row>
+            <Row className="container"> 
                 <Col s={12}> 
                     <Row className="">
-                        <Col className="site-logo" s={12} m={6} >
+                        <Col className="site-logo" s={12} m={3} >
                             <img src={logo } alt={"logo" } className="section"/>
                         </Col>
                         <Col className="" s={12} m={6}>

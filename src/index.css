@@ -20,9 +20,6 @@ code {
 h5 {
   font-size: 1.5rem;
 }
-nav ul {
-  padding-left: 10% !important;
-}
 
 .site-title {
   font-size: 35px;
@@ -32,13 +29,17 @@ nav ul {
   font-size: 25px;
 }
 
-.site-footer {
-  /* background-color: #FEE2B7; */
+.site-logo {
+  text-align: left;
 }
 
 .navbar {
   background-color: #0F3063;
   margin-top: -20px;
+}
+
+nav {
+  background-color: #0F3063;
 }
 
 
