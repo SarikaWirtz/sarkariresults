@@ -18,6 +18,7 @@ function App() {
       <SiteHeader></SiteHeader>
       <NavBar></NavBar>
       <SiteContent></SiteContent>
+      <SiteFooter></SiteFooter>
     </div>
   );
 }
