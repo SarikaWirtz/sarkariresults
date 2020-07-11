@@ -17,8 +17,13 @@ code {
     monospace;
 }
 
-h5 {
+h5,
+h2 {
   font-size: 1.5rem;
+}
+
+h2 {
+  font-weight: bold;
 }
 
 .site-title {
@@ -51,5 +56,52 @@ nav {
 .section {
   padding-top: 3rem;
 }
+
+.bold {
+  font-weight:bold;
+}
+
+.live-img {
+  height: 25px;
+  width: 90px;
+}
+
+.cardpanel1 {
+  background-color: #FC4A1A;
+}
+
+.cardpanel2,
+.followfacebook {
+  background-color: #004380;
+}
+
+.cardpanel3 {
+  background-color: #EB006D;
+}
+
+.cardpanel4 {
+  background-color: #C100FF;
+}
+
+.cardpanel5 {
+  background-color: #0063AA;
+}
+
+.cardpanel6 {
+  background-color: #AD0019;
+}
+
+.cardpanel7 {
+  background-color: #4F49FF;
+}
+
+.cardpanel8 {
+  background-color: #517646; 
+}
+
+.followfacebook {
+  
+}
+
 
 
