@@ -100,7 +100,33 @@ nav {
 }
 
 .followfacebook {
+
+}
+
+.card-title {
+  background-color: #E20000;
+  padding: 10px 0;
+  font-size: 30px;
+}
+
+.card-wrapper {
+  border: 1px solid  #E20000;
+}
+
+.carwrapper ul {
+  text-align: left;
+  padding-left: 5%;
   
+}
+
+.card-wrapper li {
+  list-style-type: square !important;
+}
+
+.card-wrapper li a {
+  color: #1d02f1;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 

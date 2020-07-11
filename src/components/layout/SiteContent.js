@@ -2,6 +2,7 @@ import React from 'react'
 import liveImg from '../../assets/img/live-2.gif'
 import FrontpageGrid from '../tables/FrontPageGrid'
 import { Button }from 'react-materialize'
+import FrontPageCards from '../tables/FrontPageCards'
 
 
 const SiteContent = () => {
@@ -21,7 +22,8 @@ const SiteContent = () => {
                 waves="light"
                 >
                 Join Us On Facebook
-                </Button>
+            </Button>
+            <FrontPageCards></FrontPageCards>
             
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
         orem Ipsum has been the industry's standard dummy text ever since the 1500s,
