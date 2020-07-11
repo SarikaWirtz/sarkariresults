@@ -16,13 +16,13 @@ const SiteContent = () => {
             </p>
             <h2>No. 1 Jobs and Education Portal</h2>
             <FrontpageGrid></FrontpageGrid>
-            <Button className="followfacebook"
-                href="https://www.facebook.com/sarkariupdate"
-                node="a"
-                waves="light"
-                >
-                Join Us On Facebook
-            </Button>
+                <Button className="followfacebook"
+                    href="https://www.facebook.com/sarkariupdate"
+                    node="a"
+                    waves="light"
+                    >
+                    Join Us On Facebook
+                </Button>
             <FrontPageCards></FrontPageCards>
             
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.

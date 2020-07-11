@@ -1,14 +1,21 @@
 import React from 'react'
-import { Row, Col, Header, Footer } from 'react-materialize'
+import { Row, Col } from 'react-materialize'
 import LatestResultCard from './LatestResultCard'
+import AdmitCardCard from './AdmitCardCard'
 
 
 const FrontPageCards =() => {
     return (
         <>
         <Row>
-            <Col m={6} s={12}>
+            <Col m={4} s={12}>
                <LatestResultCard></LatestResultCard>
+            </Col>
+            <Col m={4} s={12}>
+               <AdmitCardCard></AdmitCardCard>
+            </Col>
+            <Col m={4} s={12}>
+               <AdmitCardCard></AdmitCardCard>
             </Col>
         </Row>
         </>

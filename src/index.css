@@ -71,7 +71,8 @@ nav {
 }
 
 .cardpanel2,
-.followfacebook {
+.followfacebook,
+.view-more {
   background-color: #004380;
 }
 
@@ -100,7 +101,7 @@ nav {
 }
 
 .followfacebook {
-
+  margin-bottom: 2%;
 }
 
 .card-title {
@@ -111,16 +112,21 @@ nav {
 
 .card-wrapper {
   border: 1px solid  #E20000;
+  padding-bottom: 5%;
 }
 
-.carwrapper ul {
-  text-align: left;
-  padding-left: 5%;
+.card-wrapper ul {
+  text-align: left !important;
+  padding-left: 10%;
   
 }
 
 .card-wrapper li {
   list-style-type: square !important;
+}
+
+.card-wrapper li:nth-child(-n+3):before{
+  content: url('./assets/img/newicon.gif');
 }
 
 .card-wrapper li a {
