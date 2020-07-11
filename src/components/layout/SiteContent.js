@@ -4,14 +4,7 @@ import React from 'react'
 const SiteContent = () => {
     return (
         <section className="container">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                orem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                 when an unknown printer took a galley of type and scrambled it to make a 
-                 type specimen book. It has survived not only five centuries, but also the
-                  leap into electronic typesetting, remaining essentially unchanged. 
-                  It was popularised in the 1960s with the release of Letraset sheets 
-                  containing Lorem Ipsum passages, and more recently with desktop publishing 
-                  oftware like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <p>SarkariResults.info Provides Latest Update of Every government jobs includes Sarkari Result, Latest Jobs Online form, Admit card for the various examination held in all over the India. Find the notification and short details for every Result, State and Central govt examinations.</p>
 
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
         orem Ipsum has been the industry's standard dummy text ever since the 1500s,
