@@ -26,6 +26,7 @@ class LatestResultDetail extends Component {
          <div className="news">
              {this.state.news.title}
             <p>{this.state.news.id}</p>
+         <p>{this.state.news.tableSubTitle}</p>
          </div>
          ) : (
              <div>
