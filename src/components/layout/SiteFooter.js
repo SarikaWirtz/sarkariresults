@@ -24,7 +24,7 @@ const SiteFooter = () => {
             <p className="grey-text text-lighten-4">
                 <p className="contact-email darken-5">support@sarkariresults.info <Icon tiny>lock</Icon></p>
             </p>
-            <a href="https://www.dmca.com/Protection/Status.aspx?ID=1e60d5d3-96ef-467f-867b-c6dfd2b1ae4d&refurl=https://sarkariresults.info/" target='_blank'>
+            <a href="https://www.dmca.com/Protection/Status.aspx?ID=1e60d5d3-96ef-467f-867b-c6dfd2b1ae4d&refurl=https://sarkariresults.info/" target='_blank' rel="noopener noreferrer">
                 <img src={dmca} alt="{dmca}"/> 
             </a>
             </Footer>

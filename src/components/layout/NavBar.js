@@ -1,6 +1,7 @@
-import React, { Component } from 'react'
+import React from 'react'
+// import { Link } from 'react-router-dom'
 import 'materialize-css';
-import { SideNav, Navbar, NavItem, Dropdown, Icon, Divider } from 'react-materialize';
+import { Navbar, NavItem, Icon } from 'react-materialize';
 // import $ from 'jquery';
 
 
@@ -23,7 +24,7 @@ const NavBar = () => {
                 preventScrolling: true
             }} >   
             
-                <NavItem href="#"> Home </NavItem>
+                <NavItem href="/"> Home </NavItem>
                 <NavItem href="#"> Result</NavItem>
                 <NavItem href="#"> Admit Card</NavItem>
                 <NavItem href="#"> Latest Job</NavItem>

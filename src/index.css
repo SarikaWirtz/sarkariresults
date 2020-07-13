@@ -76,6 +76,10 @@ nav {
   background-color: #004380;
 }
 
+.view-more {
+  margin-right: 5%;
+}
+
 .cardpanel3 {
   background-color: #EB006D;
 }
@@ -112,7 +116,7 @@ nav {
 
 .card-wrapper {
   border: 1px solid  #E20000;
-  padding-bottom: 5%;
+  padding-bottom: 18%;
 }
 
 .card-wrapper ul {
