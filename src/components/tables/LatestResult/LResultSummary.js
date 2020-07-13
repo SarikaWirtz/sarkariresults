@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
  import { Link } from 'react-router-dom'
  import { Button } from 'react-materialize'
-import axios from 'axios'
-import data from '../../data/data.json'
+// import axios from 'axios'
+// import data from '../../data/data.json'
 
 class LResultSummay extends Component {
 
@@ -25,7 +25,7 @@ class LResultSummay extends Component {
              latestresultdata.map(news => {
                 return (
                     <li key={news.id}>
-                        <Link to={'/latestresult/' + news.id} >{news.title} </Link>
+                        <Link to={'/latestresult/' + news.id} >{news.nameOfPost} </Link>
                     </li>
                 )
             })

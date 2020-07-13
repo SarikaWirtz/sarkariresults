@@ -24,7 +24,7 @@ class LatestResultDetail extends Component {
           console.log(this.state.news);
          const Latestnews = this.state.news ? (
          <div className="news">
-             {this.state.news.title}
+             {this.state.news.nameOfPost}
             <p>{this.state.news.id}</p>
          <p>{this.state.news.tableSubTitle}</p>
          </div>
