@@ -1,5 +1,6 @@
 html {
   min-height: 100%;
+  line-height: 1.5;
 }
 
 body {
@@ -10,6 +11,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 code {
@@ -17,14 +20,20 @@ code {
     monospace;
 }
 
+h1 {
+  font-size: 25px;
+}
 h5,
 h2 {
   font-size: 1.5rem;
 }
 
-h2 {
+h2,
+h1 {
   font-weight: bold;
 }
+
+
 
 .site-title {
   font-size: 35px;
@@ -125,7 +134,9 @@ nav {
   
 }
 
-.card-wrapper li {
+.card-wrapper li,
+.admitcard_detail_list,
+.important_dates_list {
   list-style-type: square !important;
 }
 
@@ -138,6 +149,66 @@ nav {
   font-weight: bold;
   text-decoration: underline;
 }
+
+/* latest result details  */
+
+.article_summary {
+  font-weight: bold;
+  vertical-align: top;
+  text-align: left;
+  font-size: 18px;
+  width: 18%;
+}
+
+.tabletitle,
+.article_summary {
+  color: #ff0033;
+}
+
+
+.article_summery_title {
+  display: block;
+  font-size: 25px;
+  color: #0F3063;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  
+}
+
+.article_summery_date {
+  font-size: 16px;
+}
+
+.article_summary_information {
+  font-size: 18px;
+  text-align: left;
+}
+
+.article_summary_information {
+  line-height: 1.6 !important;
+}
+
+.tablesubTitle {
+  color:  green;
+  font-size: 0.6em;
+}
+
+.admitcard_detail_list,
+.important_dates_list {
+  font-size: 16px;
+  text-align: left;
+  line-height: 1.6 !important;
+  padding-right: 5%;
+}
+
+
+
+
+
+
+
 
 
 

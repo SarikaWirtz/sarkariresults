@@ -20,7 +20,7 @@ class LResultSummay extends Component {
      }
     render() {
          const {latestresultdata} = this.state;
-        //  console.log(this.state);
+        //   console.log(latestresultdata);
          const newsList = latestresultdata.length ? (
              latestresultdata.map(news => {
                 return (

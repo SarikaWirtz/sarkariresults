@@ -8,31 +8,30 @@
         "information": "Central Board of Secondary Education (CBSE Board) Delhi are are Going to Release Class 10th,12th for the Class 10th, 12th Examination 2020 . Those Candidates Are Enrolled with CBSE Examination 2020 Can Download Result now.",
         "tabletitle": "Central Board of Secondary Education (CBSE Board)",
         "tableSubTitle": "Class X, XII Time Table 2020",
-        "admitCard": [
-            {
+        "admitCard": {
+            
                 "title": "Admit Card",
                 "details": [
-                    {"lis1": "All Eligible Candidates Can Collect the HSC and SSC Examination Admit Card to Your Enrolled College."},
-                    {"list2": "Private Candidates Can Download Admit Card now."}
+                    {"list": "All Eligible Candidates Can Collect the HSC and SSC Examination Admit Card to Your Enrolled College."},
+                    {"list": "Private Candidates Can Download Admit Card now."}
                 ]
-            }
-        ],
-        "importantDates": [
-            {
+            
+        },
+        "importantDates":{
                 "title": "Important Dates",
                 "details": [
-                    {"lis1": "Time Table Issued : 18 December 2019"},
-                    {"list2": "Class 10th Exam:  15 Feb. to 20 March 2020"},
-                    {"list3": "Class 12th Exam:  15 Feb. to 30 March 2020"},
-                    {"list4": "Class 10th, 12th Remaining Exam Date:  01-15 July 2020"},
-                    {"list5": "Admit Card : 23 January 2020"},
-                    {"list6": "Result Declared (12th): 13 July 2020"},
-                    {"list7": "Result Declared (10th): July 2020"}
+                    {"list": "Time Table Issued : 18 December 2019"},
+                    {"list": "Class 10th Exam:  15 Feb. to 20 March 2020"},
+                    {"list": "Class 12th Exam:  15 Feb. to 30 March 2020"},
+                    {"list": "Class 10th, 12th Remaining Exam Date:  01-15 July 2020"},
+                    {"list": "Admit Card : 23 January 2020"},
+                    {"list": "Result Declared (12th): 13 July 2020"},
+                    {"list": "Result Declared (10th): July 2020"}
                 ]
-            }
-        ],
-        "checkDownloadResult": [
-            {
+        },
+        
+        "checkDownloadResult": {
+            
                 "title": "How to Check Download Result 2020",
                 "details": [
                     {"step1": "Go to Important Link Section."},
@@ -43,14 +42,23 @@
                     {"step6": "Click on 'Submit' Button."},
                     {"step7": "Check Your Result and Take a print."}
                 ]
-            }
-        ]
+            
+        }
     },
     {
         "id": 2,
         "nameOfPost": "Haryana Board Class 10th Result 2020",
         "desc": "Learn CSS For Beginners With Free Book",
-        "url" :"https://goalkicker.com/CSSBook/"
+        "url" :"https://goalkicker.com/CSSBook/",
+        "admitCard": {
+            
+            "title": "Admit Card",
+            "details": [
+                {"list": " "},
+                {"list": " "}
+            ]
+        
+        }
     },
     {
         "id": 3,
@@ -78,8 +86,8 @@
         "tabletitle": "Uttarakhand Public Service Commission (UKPSC)",
         "tableSubTitle": "Personal Assistant PA Recruitment 2019",
         "tableSubtitleSubtitle": "Advt. No. A-1/E-3/PA-HC/2019-20",
-        "applicationFee": [
-            {
+        "applicationFee": {
+            
                 "title": "Important Dates",
                 "fees": [ 
                     {
@@ -88,18 +96,17 @@
                         "fee3": "PH Candidates : Rs. 26.55/-"
                     }
                 ]
-            }
-        ],
-        "payment": [
-            {
-                "title": "Payment Mode",
-                "paymentOption": "Pay Exam Fee through Credit Card, Debit Card, Net Banking Fee Mode."
-            }
-        ],
-        "importantDates": [
-            {
-                "title": "Important Dates",
-                "details": [
+            
+            },
+        "payment": {
+            
+            "title": "Payment Mode",
+            "paymentOption": "Pay Exam Fee through Credit Card, Debit Card, Net Banking Fee Mode."
+            
+        },
+        "importantDates": {
+            "title": "Important Dates",
+            "details": [
                     {"lis1": "Online Application Start : 03 December 2019"},
                     {"list2": "Registration Last Date : 23 December 2019"},
                     {"list3": "Fee Payment Last Date : 23 December 2019"},
@@ -107,8 +114,7 @@
                     {"list5": "Admit Card Available : 14 February 2020"},
                     {"list6": "Result Available : 08 July 2020"}
                 ]
-            }
-        ]
+        }
 
     }
 
