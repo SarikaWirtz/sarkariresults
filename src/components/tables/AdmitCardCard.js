@@ -4,7 +4,7 @@ import { Button } from 'react-materialize'
 const AdmitCardCard = () => {
     return(
         <div className="card-wrapper">
-            <div className="card-title bold white-text">Latest Results</div>
+            <div className="card-title bold white-text">Admit card Results</div>
             <ul>
                 <li><a href="#!" target="_blank">Link 1</a></li>
                 <li><a href="#!" target="_blank">Link 2</a></li>

@@ -2,7 +2,7 @@ import React, { Component } from 'react'
  import { Link } from 'react-router-dom'
  import { Button } from 'react-materialize'
 // import axios from 'axios'
-// import data from '../../data/data.json'
+// import data from '../../data/latestData.json'
 
 class LResultSummay extends Component {
 
@@ -10,7 +10,7 @@ class LResultSummay extends Component {
          latestresultdata: [ ]
      }
      componentDidMount() {
-         import('../../data/data.json')
+         import('../../data/latestData.json')
          .then( res => {
             //  console.log(res)
              this.setState({

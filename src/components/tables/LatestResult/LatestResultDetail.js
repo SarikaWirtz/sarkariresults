@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
-import data from '../../data/data.json'
+import data from '../../data/latestData.json'
 import {Table, thread, th, tr, Row, Col} from 'react-materialize'
+import InnerPageFooter from '../../layout/InnerPageFooter'
 
 class LatestResultDetail extends Component {
     state = {
@@ -30,18 +31,16 @@ class LatestResultDetail extends Component {
             
             admitCardDetails.map((list, index) => {
                return (
-                   <li key={index} className="admitcard_detail_list">
+                   <li key={index} className="admitcard_detail_list detail_list">
                        {list.list}
                    </li>
                )
-           })
-        ) : (
-            <div className="center">
-               No post yet
-           </div>
-        )
-
-       
+            })
+            ) : (
+                <div className="center">
+                    No post yet
+                </div>
+            )
         const Latestnews = this.state.latestresult ? (
         <div className="result container">
             <Table className="latestresult_header">
@@ -89,14 +88,36 @@ class LatestResultDetail extends Component {
                 <Row>
                     <Col s={12} m={6}>
                         <h3 className="tablesubTitle bold"> { this.state.latestresult.admitCard.title } </h3>
+                        <h3 className="tablesubTitle bold"> { this.state.latestresult.applicationfee.title } </h3>
                         <ul>
                             {admitcardDetailList}
+                            {  
+                                this.state.latestresult.applicationfee.details.map( (res, index) => {
+                                    return (
+                                        <li key={index} className="applicatiinfee_list detail_list">{res.fee}</li>
+                                    )
+                                    
+                                })
+                            }
                         </ul>
+                        <Row>
+                            <Col s={12}>
+                                <h3 className="howtodownload_title tablesubTitle bold">
+                                    Payment Mode
+                                </h3>
+                                <p className="payment_option">
+                                    Pay Exam Fee through Credit Card, Debit Card, Net Banking Fee Mode.
+                                </p>
+                            </Col>
+                        </Row>
+                        
                     </Col>
                     <Col s={12} m={6} className="important_dates_wrapper">
                             <h3 className="tablesubTitle bold">  { this.state.latestresult.importantDates.title } </h3>
+                            
                         <ul>
                             { 
+
                                 (this.state.latestresult.importantDates.details) ? ( 
                                     this.state.latestresult.importantDates.details.map((res, index) =>{ 
                                         return (
@@ -110,16 +131,62 @@ class LatestResultDetail extends Component {
                                         no result
                                     </div>
                                 )
-                            }
-                               
-                            
+                            }  
                         </ul>
                     </Col>
                 </Row>
+                <Row>
+                    <Col s={12} className="howtodownload">
+                        <h3 className="howtodownload_title tablesubTitle bold">
+                            {this.state.latestresult.howtoDownloadResult.title}
+                        </h3>
+                        <ul>
+                            { 
+                                this.state.latestresult.howtoDownloadResult.details.map((res, index) =>{ 
+                                    return (
+                                            
+                                        <li key={index} className="howtoDownloadResult_list">{ res.step}</li>
+                                    )
+                                    
+                                })
+                            }  
+                        </ul>
+                    </Col>
+                </Row>
+                <Row className="enrolled_candidates" s={12}>
+                    <p>Enrolled Candidates Can Download Result now.</p>
+                </Row>
+                
+                <Row className="important_links" s={12}>
+                    <Row>
+                        <Col s={12}>
+                            <h3 className="important_links__title tablesubTitle bold">
+                                {this.state.latestresult.importantLinks.title}
+                            </h3>
+                        </Col>
+                    </Row>
+                    
+                    <div className="important_links__details">
+
+                        <ul>
+                            { 
+                                this.state.latestresult.importantLinks.details.map((res, index) =>{ 
+                                    return (
+                                        <Row>
+                                            <Col s={6}>
+                                                <li key={index} className="important_links_list">{ res.detail}</li>
+                                            </Col>
+                                            <Col s={6}>
+                                                <li key={index} className="important_links_button-link">{ res.buttonText}</li>
+                                            </Col>
+                                        </Row>
+                                    )   
+                                })
+                            }  
+                        </ul>
+                    </div>                            
+                </Row>
             </div>
-            {this.state.latestresult.nameOfPost}
-            <p>{this.state.latestresult.id}</p>
-         <p>{this.state.latestresult.tableSubTitle}</p>
          </div>
          ) : (
              <div>
@@ -128,12 +195,8 @@ class LatestResultDetail extends Component {
          )
         return (
             <div>
-                <h4>route parameter -hjgjhg </h4>
-                <Table className="responsive-table centered">
-
-                </Table>
-                
                 <h3>{Latestnews}</h3>
+                <InnerPageFooter></InnerPageFooter>
             </div>
         )
         

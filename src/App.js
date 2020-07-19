@@ -9,8 +9,8 @@ import NavBar from './components/layout/NavBar'
 import SiteHeader from './components/layout/SiteHeader'
 import SiteContent from './components/layout/SiteContent'
 import SiteFooter from './components/layout/SiteFooter'
-import LatestResultCardDetails from './components/tables/LatestResultCardDetails'
-import LResultSummay from './components/tables/LatestResult/LResultSummary'
+// import LatestResultCardDetails from './components/tables/LatestResultCardDetails'
+// import LResultSummay from './components/tables/LatestResult/LResultSummary'
 import LatestResultDetail from './components/tables/LatestResult/LatestResultDetail'
 
 
@@ -21,7 +21,7 @@ function App() {
       <div className="App">
         <SiteHeader></SiteHeader>
         <NavBar></NavBar>
-        {/* <LResultSummay></LResultSummay> */}
+        
         <Switch>
           <Route exact path='/' component={SiteContent} />
         

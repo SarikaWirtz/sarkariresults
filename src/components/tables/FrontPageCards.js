@@ -1,7 +1,5 @@
 import React from 'react'
-
 import { Row, Col } from 'react-materialize'
-import LatestResultCardSummary from './LatestResultCardSummary'
 import AdmitCardCard from './AdmitCardCard'
 import LResultSummay from './LatestResult/LResultSummary'
 
@@ -11,7 +9,7 @@ const FrontPageCards =() => {
     
     return (
         <>
-        <Row>
+        <Row className="all_news">
             <Col m={4} s={12}>
                 <LResultSummay></LResultSummay>
             </Col>

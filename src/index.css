@@ -20,12 +20,20 @@ code {
     monospace;
 }
 
+.latestresult_body {
+  font-size: 18px;
+}
+
 h1 {
   font-size: 25px;
 }
 h5,
 h2 {
   font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.2em;
 }
 
 h2,
@@ -134,9 +142,19 @@ nav {
   
 }
 
-.card-wrapper li,
-.admitcard_detail_list,
-.important_dates_list {
+.card-wrapper li {
+  list-style-type: square !important;
+}
+
+.detail_list {
+  list-style-type: square !important;
+  font-size: 16px;
+  text-align: left;
+  line-height: 1.6 !important;
+  padding-right: 5%;
+} 
+
+ .important_dates_list {
   list-style-type: square !important;
 }
 
@@ -177,7 +195,8 @@ nav {
   
 }
 
-.article_summery_date {
+.article_summery_date,
+.payment_option {
   font-size: 16px;
 }
 
@@ -192,10 +211,10 @@ nav {
 
 .tablesubTitle {
   color:  green;
-  font-size: 0.6em;
+  font-size: 1.2em;
 }
 
-.admitcard_detail_list,
+
 .important_dates_list {
   font-size: 16px;
   text-align: left;
