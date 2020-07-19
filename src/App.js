@@ -12,6 +12,7 @@ import SiteFooter from './components/layout/SiteFooter'
 // import LatestResultCardDetails from './components/tables/LatestResultCardDetails'
 // import LResultSummay from './components/tables/LatestResult/LResultSummary'
 import LatestResultDetail from './components/tables/LatestResult/LatestResultDetail'
+import Test from './components/layout/test'
 
 
 
@@ -28,6 +29,7 @@ function App() {
           <Route path='/latestresult/:latest_result_id' component={LatestResultDetail} />
         
         </Switch>
+        <Test></Test>
         <SiteFooter></SiteFooter>
       </div>
     </BrowserRouter>
