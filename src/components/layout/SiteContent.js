@@ -26,7 +26,7 @@ const SiteContent = () => {
             <FrontPageCards></FrontPageCards>
             
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                
+                test test test
             </p>
         </section>
     )
