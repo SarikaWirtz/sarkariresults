@@ -8,7 +8,7 @@ const InnerPageFooter = () => {
                 <Col s={12}>
                     <p className="innerpage_contact-email darken-5">For Any Query And Feedback Email us To <a href="mailto:support@sarkariresults.info"><strong>support@sarkariresults.info</strong></a> <Icon tiny>lock</Icon></p>
                     <h5 className="innerpage_contact-copyright">© Copyright 2018 at WWW.SARKARIRESULT.INFO  </h5>
-                    <p>
+                    <p className="copyright-text">
                         <strong>Disclaimer :</strong> The Examination Results / Marks published in this Website is only for the 
                         immediate Information to the Examinees an does not to be a constitute to be a 
                         Legal Document. While all efforts have been made to make the Information available 

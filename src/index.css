@@ -41,8 +41,6 @@ h1 {
   font-weight: bold;
 }
 
-
-
 .site-title {
   font-size: 35px;
 }
@@ -158,9 +156,10 @@ nav {
   list-style-type: square !important;
 }
 
-.card-wrapper li:nth-child(-n+3):before{
+.card-wrapper li:nth-child(-n+3):before {
   content: url('./assets/img/newicon.gif');
 }
+
 
 .card-wrapper li a {
   color: #1d02f1;
@@ -221,6 +220,109 @@ nav {
   line-height: 1.6 !important;
   padding-right: 5%;
 }
+
+.latestresult_body {
+  border: 1px solid #000;
+}
+
+.heading-group,
+.section-group,
+.howtodownload_title,
+.howtodownload-row,
+.important_links__title-row,
+.important_links_list-row {
+  border-bottom: 1px solid #000;
+}
+
+.section-group {
+  padding: 0 20px;
+}
+
+.howtodownload_title {
+  padding-bottom: 5%;
+}
+
+.howtodownload-row {
+  padding-bottom: 3%;
+  margin-bottom: 0;
+}
+
+.download-result-wrapper {
+  width: 50%;
+  margin: 0 auto 0 33%;
+}
+
+.download-result__list {
+  text-align: left; 
+}
+
+.enrolled_candidates {
+  border-bottom: 1px solid #000;
+  margin-top: -18px;
+}
+
+.enrolled_candidates p {
+  padding-top: 11px;
+  color: #FF8C00;
+}
+
+.light-blue-color {
+  color: #0000FF;
+}
+
+.important_links {
+  background: #f9e2b6;
+  border-top: 1px solid #000;
+}
+
+.important_links__title {
+  color: #008000;
+}
+
+.important_links_list-row {
+  padding-bottom: 10px;
+}
+
+.important_links_list-left-col {
+  border-right: 1px solid #000;
+  color: #8B4513;
+  font-weight: bold;
+}
+
+.important_links_list-right-col a {
+  font-weight: bold;
+  color: #551a8a;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.innerpage_contact-copyright {
+  font-size: 0.8rem;
+  color: #551a8a;
+}
+
+.copyright-text {
+  color: #FF8C00;
+  font-size: 0.6em;
+}
+
+
+
+
+
+
+/* media queries */
+
+@media only screen and (max-width: 500px) {
+  .download-result-wrapper {
+    width: 100%;
+    margin: 0;
+    
+  }
+}
+
+
+
 
 
 

@@ -76,16 +76,16 @@ class LatestResultDetail extends Component {
             </Table>
 
             <div className="latestresult_body">
-                <Row>
+                <Row className="heading-group">
                     <Col s={12}>
-                        <div className="center heading-group">
+                        <div className="center heading-group-wrapper">
                             <h2 className="tabletitle"> { this.state.latestresult.tabletitle } </h2>
-                            <h3 className="tablesubTitle bold"> { this.state.latestresult.tableSubTitle } </h3>
+                            <h3 className="tablesubTitle bold light-blue-color"> { this.state.latestresult.tableSubTitle } </h3>
                         </div>
                     </Col>
                 </Row>  
             
-                <Row>
+                <Row className="section-group">
                     <Col s={12} m={6}>
                         <h3 className="tablesubTitle bold"> { this.state.latestresult.admitCard.title } </h3>
                         <h3 className="tablesubTitle bold"> { this.state.latestresult.applicationfee.title } </h3>
@@ -102,11 +102,11 @@ class LatestResultDetail extends Component {
                         </ul>
                         <Row>
                             <Col s={12}>
-                                <h3 className="howtodownload_title tablesubTitle bold">
-                                    Payment Mode
+                                <h3 className="payment_title tablesubTitle bold">
+                                    {this.state.latestresult.payment.title}
                                 </h3>
                                 <p className="payment_option">
-                                    Pay Exam Fee through Credit Card, Debit Card, Net Banking Fee Mode.
+                                     {this.state.latestresult.payment.paymentOption}
                                 </p>
                             </Col>
                         </Row>
@@ -135,17 +135,17 @@ class LatestResultDetail extends Component {
                         </ul>
                     </Col>
                 </Row>
-                <Row>
+                <Row className="howtodownload-row">
                     <Col s={12} className="howtodownload">
                         <h3 className="howtodownload_title tablesubTitle bold">
                             {this.state.latestresult.howtoDownloadResult.title}
                         </h3>
-                        <ul>
+                        <ul className="download-result-wrapper">
                             { 
                                 this.state.latestresult.howtoDownloadResult.details.map((res, index) =>{ 
                                     return (
                                             
-                                        <li key={index} className="howtoDownloadResult_list">{ res.step}</li>
+                                        <li key={index} className="download-result__list">{ res.step}</li>
                                     )
                                     
                                 })
@@ -154,11 +154,11 @@ class LatestResultDetail extends Component {
                     </Col>
                 </Row>
                 <Row className="enrolled_candidates" s={12}>
-                    <p>Enrolled Candidates Can Download Result now.</p>
+                    <p><strong>Enrolled Candidates Can Download Result now.</strong></p>
                 </Row>
                 
                 <Row className="important_links" s={12}>
-                    <Row>
+                    <Row className="important_links__title-row">
                         <Col s={12}>
                             <h3 className="important_links__title tablesubTitle bold">
                                 {this.state.latestresult.importantLinks.title}
@@ -172,12 +172,12 @@ class LatestResultDetail extends Component {
                             { 
                                 this.state.latestresult.importantLinks.details.map((res, index) =>{ 
                                     return (
-                                        <Row>
-                                            <Col s={6}>
+                                        <Row className="important_links_list-row">
+                                            <Col s={6} className="important_links_list-left-col">
                                                 <li key={index} className="important_links_list">{ res.detail}</li>
                                             </Col>
-                                            <Col s={6}>
-                                                <li key={index} className="important_links_button-link">{ res.buttonText}</li>
+                                            <Col s={6} className="important_links_list-right-col">
+                                                <li key={index} className="important_links_button-link"><a href={res.url}>{ res.buttonText}</a></li>
                                             </Col>
                                         </Row>
                                     )   

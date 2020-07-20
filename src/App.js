@@ -29,7 +29,7 @@ function App() {
           <Route path='/latestresult/:latest_result_id' component={LatestResultDetail} />
         
         </Switch>
-        <Test></Test>
+        {/* <Test></Test> */}
         <SiteFooter></SiteFooter>
       </div>
     </BrowserRouter>

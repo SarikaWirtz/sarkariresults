@@ -55,8 +55,8 @@
         },
         "payment": {
             
-            "title": "Payment Mode",
-            "paymentOption": "Pay Exam Fee through Credit Card, Debit Card, Net Banking Fee Mode."
+            "title": "",
+            "paymentOption": ""
             
         },
         "importantLinks": {
